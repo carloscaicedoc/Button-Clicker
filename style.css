@@ -6,7 +6,7 @@
 
 .container {
     width: 1030px;
-    height: 1080px;
+    height: 2080px;
     margin: 0 auto;
 }
 
@@ -29,7 +29,7 @@
     background-color: royalblue;
     border-color: black;
     color: rgb(245, 240, 240);
-    padding: 3px 13px;
+    padding: 3px 18px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -53,6 +53,7 @@
 .columns {
     display: flex;
     width: auto;
+    height: 1500px;
     background-color: rgb(245, 245, 245);
 }
 
@@ -64,6 +65,7 @@
     margin: 20px;
     display: flex;
     align-items: center;
+    box-shadow: 3.7px 3.7px 3.7px rgb(124, 121, 121);
 }
 
 
@@ -138,16 +140,18 @@
     font-size: 18px;
     border-radius: 0%;
     box-shadow: 2.7px 2.7px black;
-    margin-left: 35px;
+    margin-left: 50px;
 }
 
 .right-col-elm {
     margin: 35px;
 }
 
-.dojonary-text {
-    
+h4 {
+    font-size: 20px;
+    font-weight: 365;
 }
+
 
 
 

@@ -13,41 +13,40 @@
             <h1 class="bar-title">Dojonary</h1>
             <input type="text" name="first_name" 
                 class="search-bar" placeholder="Search">
-            <button class="login-btn">Login</button>
+            <button class="login-btn" onclick="login(this)">Login</button>
         </div>
         <div class="columns">
             <div class="col-2">
                 <div class="word-card">
                     <div class="col-wordinfo">
                         <h1 class="ninja-title" class="parts">ninja</h1>
-                        <p class="parts">noun</p>
-                        <p class="parts">Plural: ninjas</p>
-                        <button class="like-btn" class="parts">13 likes</button>
+                        <p class="parts"><em>noun</em></p>
+                        <p class="parts">Plural: <em>ninjas</em></p>
+                        <button class="like-btn" class="parts" onclick="message(this)">13 likes</button>
                     </div>
-                    <p class="col-defi" id="defione">A practioner skilled in the
-                    Japanese art of ninjutsu</p>
+                    <p class="col-defi" id="defione">A practioner skilled in the <a href="#">Japanese</a>
+                    art of <a href="#">ninjutsu</a></p>
                 </div>
                 <div class="word-card">
                     <div class="col-wordinfo">
                         <h1 class="ninja-title" class="parts">ninja</h1>
-                        <p class="parts">noun</p>
-                        <p class="parts">Plural: ninjas</p>
-                        <button class="like-btn" class="parts">37 likes</button>
+                        <p class="parts"><em>noun</em></p>
+                        <p class="parts">Plural: <em>ninjas</em></p>
+                        <button class="like-btn" class="parts" onclick="message(this)">37 likes</button>
                     </div>
-                    <p class="col-defi">A programmer who breaks
-                        down problems with zen-like
+                    <p class="col-defi">A <a href="#">programmer</a> who breaks
+                        down problems with <a href="#">zen</a>-like
                         focus</p>
                 </div>                    
             </div>
             <div class="col-1">
                 <div class="word-card" id="right-box" class="add-box">
                     <h4 class="right-col-elm" class="dojonary-text">Dojonary is define by YOU</h4>
-                    <button class="add-btn" class="right-col-elm">Add Definition</button>
+                    <button class="add-btn" class="right-col-elm" onclick="disappear(this)">Add Definition</button>
                 </div>
             </div>
         </div>
     </div>    
-
     <script src="script.js"></script>
 </body>
 </html>
